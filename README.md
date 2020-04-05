@@ -1,3 +1,3 @@
 # NETCoreDocker
 
-Dockerisation of console app in .Net Core
+Check docker instructions file for starting the app
