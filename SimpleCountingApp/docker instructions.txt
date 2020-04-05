@@ -1,0 +1,13 @@
+// move src in docker, publish and make img, SimpleCountingApp folder start point
+docker build -t simplecountingimg -f ./Dockerfile .
+
+//create a new conainer from img
+docker create imgid
+
+//start container
+docker start containerId
+
+... in cmd check counting -> if is shown - AWESOME :D, all works
+
+//docker stop container
+docker stop containerId
